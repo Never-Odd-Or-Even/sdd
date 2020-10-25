@@ -10,7 +10,7 @@ steps:
     revision: "${{CF_BRANCH}}"
 
   verify:
-    title: "Building Docker image"
+    title: "Verifying Library build"
     type: "freestyle"
     image: "maven:3-openjdk-11"
     working_directory: "${{clone}}"
